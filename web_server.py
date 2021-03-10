@@ -10,7 +10,7 @@ log.setLevel(logging.ERROR)
 
 #PAGES
 # ---------------------------------------
-
+ 
 @app.route('/home')
 @app.route('/')
 def home():
