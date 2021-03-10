@@ -1,0 +1,32 @@
+{% extends 'base.html'%} 
+
+{%block title%} Oni Discord Bot {%endblock%} 
+
+{%block content%}
+<h1>Commands:</h1>
+  Audio:
+  join           join channel
+  leave          leave channel
+  pause          pause audio
+  resume         resume audio
+  stream         stream song from youtube
+  volume         sends volume instructions
+Fun:
+  profilepicture sends mentioned profile file picture
+  roll           roll the dice, default=6
+  yesorno        yes or no
+Management:
+  ban            ban command
+  clear          clears messages, default=5
+  kick           kick command
+  ping           ping check command
+  unban          unban command
+Stocks:
+  stock          return stock info (WIP)
+​No Category:
+  changeprefix   Changes Oni's prefix for server
+  help           Shows this message
+
+Type .help command for more info on a command.
+You can also type .help category for more info on a category.
+{%endblock%}
