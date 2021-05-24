@@ -23,6 +23,12 @@ def discord_oni():
     return render_template('oni.html')
 
 
+@app.route('/resume')
+@app.route('/me')
+def resume():
+    return render_template('resume.html')
+
+
 # ---------------------------------------
 
 
